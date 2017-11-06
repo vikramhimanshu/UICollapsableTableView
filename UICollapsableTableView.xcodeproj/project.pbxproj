@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9D138321FB03610002656C1 /* UICollapsableTableViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FEC4B21FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.xib */; };
+		E9D138331FB03626002656C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9FEC4AC1FAFEB6E00A5D028 /* Info.plist */; };
 		E9FEC4A11FAFEB6E00A5D028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEC4A01FAFEB6E00A5D028 /* AppDelegate.swift */; };
 		E9FEC4A31FAFEB6E00A5D028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEC4A21FAFEB6E00A5D028 /* ViewController.swift */; };
 		E9FEC4A61FAFEB6E00A5D028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FEC4A41FAFEB6E00A5D028 /* Main.storyboard */; };
 		E9FEC4A81FAFEB6E00A5D028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FEC4A71FAFEB6E00A5D028 /* Assets.xcassets */; };
 		E9FEC4AB1FAFEB6E00A5D028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FEC4A91FAFEB6E00A5D028 /* LaunchScreen.storyboard */; };
+		E9FEC4B61FAFEBB800A5D028 /* UICollapsableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEC4B31FAFEBB800A5D028 /* UICollapsableTableView.swift */; };
+		E9FEC4B71FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEC4B41FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.swift */; };
+		E9FEC4B81FAFEBB800A5D028 /* UIAutoSizeableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FEC4B51FAFEBB800A5D028 /* UIAutoSizeableTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,10 @@
 		E9FEC4A71FAFEB6E00A5D028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FEC4AA1FAFEB6E00A5D028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9FEC4AC1FAFEB6E00A5D028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FEC4B21FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICollapsableTableViewSectionHeader.xib; sourceTree = "<group>"; };
+		E9FEC4B31FAFEBB800A5D028 /* UICollapsableTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollapsableTableView.swift; sourceTree = "<group>"; };
+		E9FEC4B41FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollapsableTableViewSectionHeader.swift; sourceTree = "<group>"; };
+		E9FEC4B51FAFEBB800A5D028 /* UIAutoSizeableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAutoSizeableTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,10 @@
 				E9FEC4A01FAFEB6E00A5D028 /* AppDelegate.swift */,
 				E9FEC4A21FAFEB6E00A5D028 /* ViewController.swift */,
 				E9FEC4A41FAFEB6E00A5D028 /* Main.storyboard */,
+				E9FEC4B51FAFEBB800A5D028 /* UIAutoSizeableTableViewCell.swift */,
+				E9FEC4B31FAFEBB800A5D028 /* UICollapsableTableView.swift */,
+				E9FEC4B41FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.swift */,
+				E9FEC4B21FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.xib */,
 				E9FEC4A71FAFEB6E00A5D028 /* Assets.xcassets */,
 				E9FEC4A91FAFEB6E00A5D028 /* LaunchScreen.storyboard */,
 				E9FEC4AC1FAFEB6E00A5D028 /* Info.plist */,
@@ -124,7 +137,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9FEC4AB1FAFEB6E00A5D028 /* LaunchScreen.storyboard in Resources */,
+				E9D138321FB03610002656C1 /* UICollapsableTableViewSectionHeader.xib in Resources */,
 				E9FEC4A81FAFEB6E00A5D028 /* Assets.xcassets in Resources */,
+				E9D138331FB03626002656C1 /* Info.plist in Resources */,
 				E9FEC4A61FAFEB6E00A5D028 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FEC4B81FAFEBB800A5D028 /* UIAutoSizeableTableViewCell.swift in Sources */,
 				E9FEC4A31FAFEB6E00A5D028 /* ViewController.swift in Sources */,
+				E9FEC4B61FAFEBB800A5D028 /* UICollapsableTableView.swift in Sources */,
 				E9FEC4A11FAFEB6E00A5D028 /* AppDelegate.swift in Sources */,
+				E9FEC4B71FAFEBB800A5D028 /* UICollapsableTableViewSectionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
